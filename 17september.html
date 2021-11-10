@@ -1,0 +1,54 @@
+<!DOCTYPE HTML>
+<html>
+   <head>
+      <title>KEERTHANA'S ENGLISH PORTFOLIO</title>
+   </head>
+
+
+   <link rel = "stylesheet" type="text/css"href = "style1.css"/>
+   <link rel="stylesheet" href="style1.css">
+
+
+   <body style="background-color: #E7E2DC;">
+      <!-- Home Icon -->
+      <a href="index.html"><img src="images\home.png" style="width:50px;height:50px;" ></img></a>
+
+
+      <!-- Quote of the day -->
+      <div class = "grid">
+         <p style = "text-align:center; font-weight:bold; font-size:80px; font-family:cursive; background-color: hotpink;">
+            <b>Quote of the day - Day 77</b>
+         </p>
+         <p style = "text-align:center; font-weight:bold; font-size:35px; font-family:cursive; align-items:center;">
+            <i>"It Always Seems Impossible Until It's Done."</i>
+         </p>
+      </div>
+      <img src="images/mandela.jpg"width = 350 height = 250; style = "margin-left: 600px;"></img>
+
+      
+      <!-- Go to top button -->
+      <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+      <script>
+         //Get the button
+         var mybutton = document.getElementById("myBtn");
+         // When the user scrolls down 20px from the top of the document, show the button
+         window.onscroll = function() {scrollFunction()};
+         
+         function scrollFunction() {
+           if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+             mybutton.style.display = "block";
+           } else {
+             mybutton.style.display = "none";
+           }
+         }
+         
+         // When the user clicks on the button, scroll to the top of the document
+         function topFunction() {
+           document.body.scrollTop = 0;
+           document.documentElement.scrollTop = 0;
+         }
+      </script>
+      <h4>Note* Hover the mouse on the image to make the image darker.</h4>
+   </body>
+   
+</html>

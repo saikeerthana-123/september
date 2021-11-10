@@ -1,0 +1,63 @@
+<!DOCTYPE HTML>
+<html>
+   <head>
+      <title>KEERTHANA'S ENGLISH PORTFOLIO</title>
+   </head>
+
+
+   <link rel = "stylesheet" type="text/css"href = "style1.css"/>
+   <link rel="stylesheet" href="style1.css">
+
+
+   <body style="background-color: #E7E2DC;">
+      <!-- Home Icon -->
+      <a href="index.html"><img src="images\home.png" style="width:50px;height:50px;" ></img></a>
+
+
+      <!-- Word of the day -->
+      <div class = "main_grid">
+         <div class = "grid">
+            <p style = "text-align:center; font-weight:bold; font-size:80px; font-family:cursive; background-color: hotpink;">
+               <b>Word of the day - Day 72</b>
+            </p>
+         </div>
+         <div class = "grid">
+            <p style = "text-align:center; font-weight:bold; font-size:35px; font-family:cursive; align-items:center; background-color: #F2B6C1;">
+               <b>aura</b>
+            </p>
+            <p style = "text-align:center; font-weight:bold; font-size:35px; font-family:cursive; align-items:center;">
+               <i>a feeling or character that a person or place seems to have</i>
+            </p>
+            <p style = "text-align:center; font-weight:bold; font-size:35px; font-family:cursive; align-items:center;">
+                Usage<i>The woods have an aura of mystery.</i>
+             </p>
+            <img src="images/aura.jpg"width = 300 height = 300; style="float:right;"></img>
+         </div>
+
+      
+      <!-- Go to top button -->
+      <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+      <script>
+         //Get the button
+         var mybutton = document.getElementById("myBtn");
+         // When the user scrolls down 20px from the top of the document, show the button
+         window.onscroll = function() {scrollFunction()};
+         
+         function scrollFunction() {
+           if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+             mybutton.style.display = "block";
+           } else {
+             mybutton.style.display = "none";
+           }
+         }
+         
+         // When the user clicks on the button, scroll to the top of the document
+         function topFunction() {
+           document.body.scrollTop = 0;
+           document.documentElement.scrollTop = 0;
+         }
+      </script>
+      <h4>Note* Hover the mouse on the image to make the image darker.</h4>
+   </body>
+   
+</html>
